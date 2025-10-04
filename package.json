@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "hugo server --environment development -p 23001 -O --ignoreCache"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.14",
+    "tailwindcss": "^4.1.14"
+  },
+  "dependencies": {
+    "alpinejs": "^3.15.0"
+  }
+}

@@ -1,0 +1,4 @@
+# All user defined params
+author = "Your Name"
+description = "Description of the website you are building"
+theme_color = "#FF10F0"

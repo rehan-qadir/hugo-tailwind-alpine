@@ -1,0 +1,16 @@
+{{ define "main" }}
+  {{ .Content }}
+
+  <!-- The following lines show that the Tailwind CSS and Alpine JS are working fine -->
+   <div class="flex justify-center items-center h-screen">
+    <div x-data="{ count: 0 }">
+      <button x-on:click="count++" type="button" class="inline-flex items-center justify-center px-4 py-2 text-sm font-medium tracking-wide text-blue-500 transition-colors duration-100 rounded-md focus:ring-2 focus:ring-offset-2 focus:ring-blue-100 bg-blue-50 hover:text-blue-600 hover:bg-blue-100">
+        Click Me
+      </button>
+      <span x-text="count" class="font-mono text-gray-700 ml-2"></span>
+  </div>
+  {{ range site.RegularPages }}
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ .Summary }}
+  {{ end }}
+{{ end }}

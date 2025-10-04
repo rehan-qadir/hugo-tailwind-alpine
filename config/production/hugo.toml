@@ -1,0 +1,3 @@
+baseURL = "https://your-live-domain.com/"
+buildDrafts = false
+buildFuture = false

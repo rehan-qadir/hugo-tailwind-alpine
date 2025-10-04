@@ -1,0 +1,8 @@
+# Configuration of all supported languages of the site
+
+[en]
+  title = "New Hugo Site"
+  weight = 1
+  languageName = "English"
+  [en.params]
+    description = "A description of the site."

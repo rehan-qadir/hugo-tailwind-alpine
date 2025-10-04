@@ -1,0 +1,6 @@
+# All menu of the site
+
+[[main]]
+  name = "Home"
+  url = "/"
+  weight = 1
