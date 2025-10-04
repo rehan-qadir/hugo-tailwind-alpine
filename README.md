@@ -29,6 +29,7 @@ This template is designed to give you a smooth developer experience with **separ
 ## 📂 Config Structure
 This template utilizes Hugo's powerful config directory to manage settings for different environments.
 
+```
 config/
 ├── _default/         # Base configuration loaded for all environments
 │   ├── hugo.toml
@@ -42,7 +43,7 @@ config/
 │
 └── production/       # Loaded only when running `hugo` (`npm run build`)
     └── hugo.toml
-
+```
 ---
 
 ## 🛠️ Setup
